@@ -3,6 +3,7 @@ import { useEffect, useRef, useState, FormEvent } from 'react';
 import Intro from './Intro';
 import Hero from './Hero';
 import Image from 'next/image';
+import Partners from './Partners';
 
 /* ---------- Të dhënat: ndrysho këtu projektet ---------- */
 type Project = {
@@ -335,6 +336,8 @@ export default function Home() {
       <Hero>
         <Viewer />
       </Hero>
+
+      <Partners />
 
       <section id="projects" className="mx-auto max-w-6xl px-6 py-24">
         <h2
